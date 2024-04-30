@@ -21,7 +21,6 @@ num-bigint = "0.4"
 hex = "0.4"
 thiserror = "1.0"
 log = "0.4"
-env_logger = "0.10"
 # mpt-zktrie = { git = "https://github.com/scroll-tech/zkevm-circuits.git", rev = "7d9bc181953cfc6e7baf82ff0ce651281fd70a8a" }
 rand_chacha = "0.3.0"
 criterion = { version = "0.4", optional = true}
@@ -46,6 +45,7 @@ mpt-zktrie = { git = "https://github.com/scroll-tech/zkevm-circuits.git", rev = 
 # mpt-zktrie = { path = "../zkevm-circuits/zktrie" }
 plotters = "0.3"
 bencher = "0.1"
+env_logger = "0.10"
 subtle = "2"
 
 [[bin]]
